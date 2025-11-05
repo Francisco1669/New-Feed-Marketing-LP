@@ -70,7 +70,7 @@ export default function Portfolio() {
         </motion.div>
 
         {/* Versão Desktop - Sticky Stack Effect */}
-        <div className="hidden md:block relative" style={{ height: `${portfolioItems.length * 120}vh` }}>
+        <div className="hidden md:block relative" style={{ height: `${portfolioItems.length * 80}vh` }}>
           {portfolioItems.map((item, index) => {
             const targetScale = 1 - (portfolioItems.length - index) * 0.05
             const isLast = index === portfolioItems.length - 1
@@ -87,7 +87,7 @@ export default function Portfolio() {
                   initial={{ opacity: 0, y: 100 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  transition={{ duration: 0.6 }}
                   className="w-full max-w-4xl"
                   style={{
                     scale: targetScale
@@ -106,7 +106,8 @@ export default function Portfolio() {
                       <motion.span
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.2 + index * 0.1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
                         className="text-sm font-bold mb-3 opacity-90 uppercase tracking-wider"
                       >
                         {item.category}
@@ -114,7 +115,8 @@ export default function Portfolio() {
                       <motion.h3
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.3 + index * 0.1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.3 }}
                         className="text-5xl font-bold mb-4"
                       >
                         {item.title}
@@ -122,7 +124,8 @@ export default function Portfolio() {
                       <motion.p
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.4 + index * 0.1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.4 }}
                         className="text-lg opacity-90 max-w-2xl"
                       >
                         {item.description}
@@ -141,7 +144,8 @@ export default function Portfolio() {
                         className="h-full bg-white"
                         initial={{ width: 0 }}
                         whileInView={{ width: '100%' }}
-                        transition={{ duration: 1, delay: 0.5 + index * 0.1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1, delay: 0.5 }}
                       ></motion.div>
                     </div>
                   </div>
@@ -159,7 +163,7 @@ export default function Portfolio() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5 }}
               className="relative overflow-hidden rounded-2xl shadow-lg h-80"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${item.color}`}></div>
