@@ -70,7 +70,7 @@ export default function RootLayout({
                 addressCountry: 'BR',
               },
               url: 'https://newfeed.com.br',
-              sameAs: ['https://www.instagram.com/newfeedmarketing'],
+              sameAs: ['https://www.instagram.com/newfeed.marketing'],
               priceRange: '$$',
               description: 'Agência de marketing digital especializada em gestão de redes sociais, tráfego pago e branding em Uruguaiana - RS',
             }),
