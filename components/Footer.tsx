@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/newfeedmarketing"
+                href="https://www.instagram.com/newfeed.marketing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"

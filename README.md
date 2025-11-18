@@ -99,7 +99,7 @@ npm start
 - 📍 Duque de Caxias, 1570 sala 301, Uruguaiana - RS
 - 📱 WhatsApp: (55) 99994-8112
 - 📧 contato@newfeed.com.br
-- 📸 Instagram: [@newfeedmarketing](https://www.instagram.com/newfeedmarketing)
+- 📸 Instagram: [@newfeed.marketing](https://www.instagram.com/newfeed.marketing)
 
 ## 📄 Licença
 

@@ -182,7 +182,7 @@ export default function PortfolioPage() {
               Acompanhe nosso Instagram para ver mais casos de sucesso e bastidores dos nossos projetos
             </p>
             <a
-              href="https://www.instagram.com/newfeedmarketing"
+              href="https://www.instagram.com/newfeed.marketing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-white text-purple-600 px-10 py-5 rounded-full hover:shadow-2xl transition-all font-bold text-xl"

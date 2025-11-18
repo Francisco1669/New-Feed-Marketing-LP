@@ -187,7 +187,7 @@ export default function Portfolio() {
           className="text-center mt-20"
         >
           <a
-            href="https://www.instagram.com/newfeedmarketing"
+            href="https://www.instagram.com/newfeed.marketing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full hover:shadow-xl hover:scale-105 transition-all font-semibold"

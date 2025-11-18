@@ -28,8 +28,8 @@ export default function ContatoPage() {
     {
       icon: Instagram,
       title: 'Instagram',
-      content: '@newfeedmarketing',
-      link: 'https://www.instagram.com/newfeedmarketing',
+      content: '@newfeed.marketing',
+      link: 'https://www.instagram.com/newfeed.marketing',
       color: 'from-pink-500 to-rose-600'
     }
   ]
